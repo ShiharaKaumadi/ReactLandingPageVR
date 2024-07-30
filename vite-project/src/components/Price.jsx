@@ -9,7 +9,7 @@ const Price=()=>{
             <div className="flex flex-wrap">
                 {pricingOptions.map((items,index)=>(
                     <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-                        <div className="p-10 border border-neutral-700 rounded-xl">
+                        <div className="p-10 border border-neutral-700 rounded-xl mr-10 ml-10">
                             <p className="text-4xl mb-8 ">
                                 {items.title}
                                 {items.title==="Pro" &&(<span className="bg-gradient-to-r from-green-500 to to-green-900 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>)}
